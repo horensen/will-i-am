@@ -5,8 +5,7 @@ WillIAm is a concept of an automatic will generation for Singaporeans. By using 
 
 How it works: https://youtu.be/cukZy5h8KXs
 
-Developers: Ho Ren Sen (@horensen), Jerry Tan Si Kai (@thejerrytan)
-
-Designer: Kevin Kwa (@altern8tif)
-
-Hustlers: Doriton, Kenneth Goh, Louis Tan
+Team:
+* Developers: Ho Ren Sen (@horensen), Jerry Tan Si Kai (@thejerrytan)
+* Designer: Kevin Kwa (@altern8tif)
+* Hustlers: Doriton, Kenneth Goh, Louis Tan
