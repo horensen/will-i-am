@@ -1,0 +1,34 @@
+{
+  "name": "WillIAm",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "google-cloud": "^0.56.0",
+    "js-base64": "^2.3.2",
+    "react": "^16.0.0",
+    "react-cloud-vision-api": "^0.3.0",
+    "react-native": "0.48.4",
+    "react-native-camera": "^0.10.0",
+    "react-native-elements": "^0.17.0",
+    "react-native-meteor": "^1.1.0",
+    "react-native-router-flux": "^4.0.0-beta.21",
+    "react-native-style-tachyons": "^3.5.0",
+    "react-native-vector-icons": "^4.4.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
