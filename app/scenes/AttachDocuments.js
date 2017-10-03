@@ -12,7 +12,7 @@ export default class AttachDocuments extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			'api_key': ' ',		// removed to avoid committing into code repository
+			'api_key': ' ',		// redacted
 			'path': ' ',
 			'isCaptured': false
 		};
@@ -29,7 +29,7 @@ export default class AttachDocuments extends Component {
 	      	AlertIOS.alert('Image Captured', '',
               [
                 { text: 'OK', onPress: () => {
-                	const fakeData = 'Prudential\n\nBenefit Details:\n\nPolicy Details:\n\nPolicy Number: 43563012 Plan Type: PRUFLEXICASH 6th Series EC6\n\nServicing Financial Consultant: PruCustomer Care (Partnership Distribution) [UZX-743000] \n\n Basic Plan: Status: Sum Assured: Basic Premium: Single Premium: \n\n PruFliexiCash  In Force  26,500.00  2,386.86  0.00';
+                	const fakeData = '';	// redacted
                 	Actions.displayTextScene({ data: { text: fakeData } });
                 }, style: 'default' }
               ]
@@ -41,7 +41,7 @@ export default class AttachDocuments extends Component {
 	      	AlertIOS.alert('Image Captured', '',
               [
                 { text: 'OK', onPress: () => {
-                	const fakeData = 'Prudential\n\nBenefit Details:\n\nPolicy Details:\n\nPolicy Number: 43563012 Plan Type: PRUFLEXICASH 6th Series EC6\n\nServicing Financial Consultant: PruCustomer Care (Partnership Distribution) [UZX-743000] \n\n Basic Plan: Status: Sum Assured: Basic Premium: Single Premium: \n\n PruFliexiCash  In Force  26,500.00  2,386.86  0.00';
+                	const fakeData = '';	// redacted
                 	Actions.displayTextScene({ data: { text: fakeData } });
                 }, style: 'default' }
               ]
@@ -50,7 +50,7 @@ export default class AttachDocuments extends Component {
 	  }
 
 	renderCameraOrImage() {
-		const fakeData = 'Prudential\n\nBenefit Details:\n\nPolicy Details:\n\nPolicy Number: 43563012 Plan Type: PRUFLEXICASH 6th Series EC6\n\nServicing Financial Consultant: PruCustomer Care (Partnership Distribution) [UZX-743000] \n\n Basic Plan: Status: Sum Assured: Basic Premium: Single Premium: \n\n PruFliexiCash  In Force  26,500.00  2,386.86  0.00';
+		const fakeData = '';	// redacted
 
 		if (this.state.isCaptured) {
 			return ( 
