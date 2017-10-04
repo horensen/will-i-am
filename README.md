@@ -10,4 +10,4 @@ Links
 Team:
 * Developers: Ho Ren Sen (@horensen), Jerry Tan Si Kai (@thejerrytan)
 * Designer: Kevin Kwa (@altern8tif)
-* Hustlers: Doriton, Kenneth Goh, Louis Tan
+* Hustlers: Doriton, Kenneth Goh (@jazken), Louis Tan
